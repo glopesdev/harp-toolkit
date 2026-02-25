@@ -3,20 +3,15 @@
   <PropertyGroup>
     <Authors>harp-tech</Authors>
     <PackageIcon>icon.png</PackageIcon>
-    <Description>A tool for inspecting, updating and interfacing with Harp devices from the command-line.</Description>
-    <ToolCommandName>harp.toolkit</ToolCommandName>
-    <PackageTags>Harp Toolkit Device Firmware</PackageTags>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <Copyright>Copyright © harp-tech and Contributors 2024</Copyright>
+    <Copyright>Copyright © harp-tech and Contributors</Copyright>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <GenerateDocumentationFile>false</GenerateDocumentationFile>
-    <PackageOutputPath>..\bin\$(Configuration)</PackageOutputPath>
-    <PackageProjectUrl>https://github.com/harp-tech/harp-cli</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/harp-tech/harp-cli.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/harp-tech/toolkit</PackageProjectUrl>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <UseArtifactsOutput>true</UseArtifactsOutput>
     <VersionSuffix></VersionSuffix>
-    <RepositoryType>git</RepositoryType>
-    <PackAsTool>true</PackAsTool>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(IsPackable)' == 'true'">

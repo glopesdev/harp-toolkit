@@ -1,5 +1,4 @@
 ﻿using System.CommandLine;
-using System.IO.Ports;
 using Bonsai.Harp;
 
 namespace Harp.Toolkit;
